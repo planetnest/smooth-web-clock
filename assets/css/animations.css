@@ -1,0 +1,42 @@
+/**
+ * @author
+ * Devcrib @ Planet NEST
+ * planetnest.org/devcrib
+ * Friday, 17th March, 2017
+ */
+
+@keyframes rotateRight {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+@-webkit-keyframes rotateRight {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes rotateLeft {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(-360deg)
+    }
+}
+
+@-webkit-keyframes rotateLeft {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(-360deg)
+    }
+}
