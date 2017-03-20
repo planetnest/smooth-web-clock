@@ -19,6 +19,7 @@ body {
     font-family: sans-serif;
     overflow: hidden;
     box-sizing: border-box;
+    transition: background 1s ease-in-out;
 }
 
 .wrapper {
@@ -47,7 +48,7 @@ body {
     background: inherit;
     position: relative;
     box-shadow: rgba(135, 206, 235, 0.6) 0px 0px 20px 4px;
-    transition: all 250ms
+    transition: all 250ms;
 }
 
 .clock-pieces {
@@ -111,7 +112,11 @@ body {
     margin: auto;
     border-radius: 50%;
     text-align: center;
-    
+    opacity: .3;
+}
+
+.round:hover {
+    opacity: 1;
 }
 
 .background-controllas {
@@ -187,4 +192,24 @@ body {
     left: 20%;
     top: 50%;
     animation-delay: 2.5s;
+}
+
+body.skyblue .inner {
+    box-shadow: rgba(135, 206, 235, 0.6) 0px 0px 20px 4px;
+}
+
+body.pink .inner {
+    box-shadow: rgba(255, 192, 203, 0.6) 0px 0px 20px 4px;
+}
+
+body.orange .inner {
+    box-shadow: rgba(255, 165, 0, 0.6) 0px 0px 20px 4px;
+}
+
+body.purple .inner {
+    box-shadow: rgba(70%,5%,70%, 0.1) 0px 0px 20px 4px;
+}
+
+body.olivedrab .inner {
+    box-shadow: rgba(144, 238, 144, 0.6) 0px 0px 20px 4px;
 }
