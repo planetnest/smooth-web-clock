@@ -13,3 +13,4 @@ See the demo here at [devcrib.github.io/smooth-web-clock](https://devcrib.github
 
 ##### Contributors:
 * Veronica O Michael
+* Dotun Adeyemi Williams A.K.A The Dean Longe
