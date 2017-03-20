@@ -40,3 +40,17 @@
         transform: rotateZ(-360deg)
     }
 }
+
+@keyframes mirage {
+    from {
+        transform: scale(0.1);
+        background: rgba(255, 255, 255, .8);
+    }
+}
+
+@-webkit-keyframes mirage {
+    from {
+        transform: scale(0.1);
+        background: rgba(255, 255, 255, .8);
+    }
+}
